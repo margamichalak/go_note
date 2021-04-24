@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+    <nav class="navbar fixed-bottom navbar-dark custom-nav">
       <div class="container-fluid justify-content-end p-2">
         <span class="text-muted mx-5 d-none d-md-block">©2021 Polityka prywatności | Warunki korzystania z usługi</span>
         <span class="text-light"><i class="bi-heart-fill pe-2"></i>Moje konto</span>
@@ -102,4 +102,8 @@
     background-size: cover;
     height: 30%;
   }
+  
+  .custom-nav {
+	background-color: #083A59;
+	}
 </style>
